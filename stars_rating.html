@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Star Rating by Nadeesha Eranjan</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/range_slider_styles.css">
+
+</head>
+<body class="">
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ratingModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade ratingModal in" id="ratingModal" tabindex="-1" role="dialog" aria-labelledby="ratingModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="modal-body text-center">
+                    <div class="top-img-container"></div>
+                    <h3>Do you like this video?</h3>
+                    <p>Use the slider give your rate to this video</p>
+                    <h1 id="vote"><span>0</span> / 5</h1>
+                    <div class="stars-container">
+                        <span class="star-item star-item-1" data-id="1">
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #ccc;
+                                  }
+                                </style>
+                              </defs>
+                              <path class="cls-1" d="M50,0L66.478,31.427,99.993,38.2,76.663,64.389,80.9,100,50,84.759,19.1,100l4.235-35.608L0.007,38.2l33.515-6.77L50,0"/>
+                            </svg>
+                        </span>
+                        <span class="star-item star-item-2" data-id="2">
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #ccc;
+                                  }
+                                </style>
+                              </defs>
+                              <path class="cls-1" d="M50,0L66.478,31.427,99.993,38.2,76.663,64.389,80.9,100,50,84.759,19.1,100l4.235-35.608L0.007,38.2l33.515-6.77L50,0"/>
+                            </svg>
+                        </span>
+                        <span class="star-item star-item-3" data-id="3">
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #ccc;
+                                  }
+                                </style>
+                              </defs>
+                              <path class="cls-1" d="M50,0L66.478,31.427,99.993,38.2,76.663,64.389,80.9,100,50,84.759,19.1,100l4.235-35.608L0.007,38.2l33.515-6.77L50,0"/>
+                            </svg>
+                        </span>
+                        <span class="star-item star-item-4" data-id="4">
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #ccc;
+                                  }
+                                </style>
+                              </defs>
+                              <path class="cls-1" d="M50,0L66.478,31.427,99.993,38.2,76.663,64.389,80.9,100,50,84.759,19.1,100l4.235-35.608L0.007,38.2l33.515-6.77L50,0"/>
+                            </svg>
+                        </span>
+                        <span class="star-item star-item-5" data-id="5">
+                            <!-- <i class="fa fa-star" aria-hidden="true"></i> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: #ccc;
+                                  }
+                                </style>
+                              </defs>
+                              <path class="cls-1" d="M50,0L66.478,31.427,99.993,38.2,76.663,64.389,80.9,100,50,84.759,19.1,100l4.235-35.608L0.007,38.2l33.515-6.77L50,0"/>
+                            </svg>
+                        </span>
+                    </div>
+                    <input type="range" name="vote" min="0" class="form-control-range hidden" max="5" value="0" id="vote-slider">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Rate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/range_slider_script.js"></script>
+</body>
+</html>
